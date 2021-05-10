@@ -1,0 +1,162 @@
+.everything {
+    width: 960px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+}
+
+.title {
+    color: #B92025;
+    font-size: 42px;
+    font-family: Courier;
+    font-weight: bold;
+    text-align: center;
+    left: 150px;
+    top: 250px;
+    position: absolute;
+    animation: intropage 3s ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+.subtitle {
+    font-weight: bold;
+    font-family: Courier;
+    font-size: 26px;
+    color: #2D429B;
+    margin-top: 500px;
+    left: 400px;
+    position: relative;
+    animation: letsbegin 3s linear;
+    animation-fill-mode: forwards;
+}
+
+.arrow {
+    height: 73px;
+    position: absolute;
+    width: 81px;
+    left: 450px;
+    bottom: 50px;
+    animation: arrow 3.25s ease-in-out;
+
+}
+
+.steptitle {
+    color: #B92025;
+    font-size: 30px;
+    font-family: Courier;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 675px;
+    margin-top: 275px;
+    position: relative;
+    animation: title 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.stepdescription {
+    font-family: Courier;
+    font-size: 14px;
+    color: #2D429B;
+    text-align: center;
+    margin-left: 675px;
+    margin-top: 10px;
+    line-height: 20px;
+    animation: bodytext 2s linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+.drawing1 {
+    position: absolute;
+    float: left;
+    margin-top: -225px;
+    margin-left: -200px;
+    animation: image1 2.5s linear;
+    animation-fill-mode: forwards;
+}
+
+.drawing2 {
+    position: absolute;
+    float: left;
+    margin-top: -400px;
+    margin-left: -200px;
+    animation: image2 2.5s linear;
+    animation-fill-mode: forwards;
+}
+.drawing3 {
+    position: absolute;
+    float: left;
+    margin-top: -375px;
+    margin-left: -200px;
+    animation: image3 2.5s linear;
+    animation-fill-mode: forwards;
+}
+.drawing4 {
+    position: absolute;
+    float: left;
+    margin-top: -450px;
+    margin-left: -250px;
+    animation: image4 2.5s linear;
+    animation-fill-mode: forwards;
+}
+
+.drawing5 {
+    position: absolute;
+    float: left;
+    margin-top: -400px;
+    margin-left: -250px;
+    animation: image5 2.5s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes arrow {
+    0% {left: 0; top:-900px;opacity: 0;}
+    100% {top: -200px;left:400px; opacity: 100;}
+}
+
+@keyframes title {
+    0% {left: 0px; top:-900px;}
+    100% {top: 0px;left:0px}
+}
+@keyframes bodytext {
+    0% {left: 0; top:500px;}
+    100% {top: 0;left:0}
+}
+@keyframes image1 {
+    0% {left: -200px; top:-300px;}
+    100% {top: 75px;left:0}
+}
+
+@keyframes image2 {
+    0% {left: -200px; top:-300px;}
+    100% {top: 250px;left:0}
+}
+
+@keyframes image3 {
+    0% {left: -200px; top:-300px;}
+    100% {top: 280px;left:0}
+}
+
+@keyframes image4 {
+    0% {left: -200px; top:-300px;}
+    100% {top: 250px;left:0}
+}
+
+@keyframes image5 {
+    0% {left: -200px; top:-300px;}
+    100% {top: 250px;left:0}
+}
+
+@keyframes intropage {
+    0% {left: 150px; top:-200px;}
+    100% {top: 300px;left:150px}
+}
+
+@keyframes letsbegin {
+    0% {left: -500px; top:0px;}
+    100% {top: 0px;left:400px}
+
+}
+
